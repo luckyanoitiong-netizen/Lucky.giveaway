@@ -35,3 +35,22 @@ document.getElementById("prizeSection").classList.add("hidden");
 document.getElementById("contactAdmin").classList.remove("hidden");
 
 });
+function setLanguage(lang){
+
+if(lang==="es"){
+
+document.getElementById("title").innerHTML="🎁 Sorteo Lucky";
+document.getElementById("subtitle").innerHTML="Elige un número de la suerte para revelar tu premio.";
+document.getElementById("pendingTitle").innerHTML="Premio Pendiente de Activación";
+document.getElementById("submitBtn").innerHTML="Enviar Formulario";
+
+}else{
+
+document.getElementById("title").innerHTML="🎁 Lucky Giveaway";
+document.getElementById("subtitle").innerHTML="Choose one lucky number below to reveal your prize.";
+document.getElementById("pendingTitle").innerHTML="Prize Pending Activation";
+document.getElementById("submitBtn").innerHTML="Submit Delivery Form";
+
+}
+
+}
