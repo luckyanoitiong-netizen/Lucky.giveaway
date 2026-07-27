@@ -234,3 +234,23 @@ font-weight:bold;
 display:none;
 
 }
+.language-switch{
+  display:flex;
+  justify-content:center;
+  gap:10px;
+  margin:20px 0;
+}
+
+.language-switch button{
+  background:#222;
+  color:#fff;
+  border:1px solid #00ffcc;
+  padding:10px 15px;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.language-switch button:hover{
+  background:#00ffcc;
+  color:#000;
+}
